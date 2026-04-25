@@ -44,7 +44,8 @@ Main Data Files
 *.nc - NetCDF meteorological data file
 *.png - Result Chart
 # Data file size
-Due to the large size of the data files (each .npy file is approximately 16MB), these files have been excluded via .gitignore. It is recommended to：
+Due to the large size of the data files (most of the .npy file is approximately 16MB), these files have been excluded via .gitignore. 
+It is recommended to：
 1.Managing large files with Git LFS
 2.or store data files separately
 3.Or use an external storage service
@@ -54,7 +55,7 @@ Due to the large size of the data files (each .npy file is approximately 16MB), 
 3.Multi-platform support - Supports CPU and GPU inference
 4.Data Visualization - Rich chart output
 # Precautions
-1.Large files (e.g., .npy, .nc, .exe) are not included in the Git repository
+1.Large files (e.g., .npy, .nc, .exe, .onnx) are not included in the Git repository
 2.Dependencies need to be configured according to the actual environment
 3.The GPU version requires CUDA environment support
 # License
